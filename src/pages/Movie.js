@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import MovieData from '../components/MovieData'
 
 class Movie extends Component {
   render() {
     return (
-      <div>
+      <>
+        <header>
+          <h1>Movie Guide</h1>
+        </header>
 
-      </div>
+        <MovieData />
+      </>
     );
   }
 }
